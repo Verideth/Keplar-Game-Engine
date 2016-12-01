@@ -4,6 +4,8 @@
 
 <b>Creative Commons License. This work is licensed under a Creative Commons Attribution 4.0 International License.</b>
 
+<b>THIS IS JUST A BASE FOR A GAME ENGINE, IT IS NO WHERE NEAR COMPLETE</b>
+
 <p>I love giving out support to those in need, so make an issue or add me on steam if you have any issues http://steamcommunity.com/id/codingsquad</p>
 
 <p>Documentation will be added shortly</p>
