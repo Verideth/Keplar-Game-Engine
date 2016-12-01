@@ -3,6 +3,10 @@
 #ifndef SKYBOX_KEPLAR
 #define SKYBOX_KEPLAR
 
+// I followed a article on how to make a skybox in OpenGL
+// I cannot find it, as I haven't worked on this in ~4 months
+// This is credits to him
+
 class Skybox
 {
 	enum
