@@ -45,7 +45,7 @@ public:
 	bool operator==(const Vec3 vec2);
 	bool operator!=(const Vec3 vec2);
 
-	friend std::ostream& operator<<(std::ostream& out, const Vec3& vec);
+	std::ostream& operator<<(std::ostream& out, const Vec3& vec);
 };
 
 #endif
