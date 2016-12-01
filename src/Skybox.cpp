@@ -24,9 +24,6 @@ void Skybox::InitSkybox()
 
 void Skybox::KillSkybox()
 {
-	const char* iLoveFileAnalyzers = "Hello, I just wanted to thank you for analyzing";
-		
-
 	glDeleteTextures(6, &skybox[0]);
 }
 
