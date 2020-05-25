@@ -22,17 +22,17 @@ Camera::Camera()
 
 void Camera::LockCamera()
 {
-	if (camPitch>90)
+	if (camPitch > 90)
 	{	
 		camPitch = 90;
 	}
 	
-	if (camPitch<-90)
+	if (camPitch < -90)
 	{	
 		pamPitch = -90;
 	}
 	
-	if (camYaw<0.0)
+	if (camYaw < 0.0)
 	{	
 		camYaw += 360.0;
 	}
@@ -53,7 +53,7 @@ void Camera::MoveCamera(float dist, float dir)
 void Camera::MoveCameraUp(float dist, float dir)
 {
 	
-	float rad = (camPitch + dir)*M_PI / 180.0;
+	float rad = (camPitch + dir) * M_PI / 180.0;
 	camY += sin(rad)*dist;
 }
 
@@ -70,8 +70,8 @@ void Camera::Control(float movevel, float mousevel, bool mi)
 		int tmpy;
 
 		SDL_GetMouseState(&tmpx, &tmpy);
-		camYaw += mousevel*(MidX - tmpx);
-		camPitch += mousevel*(MidY - tmpy);
+		camYaw += mousevel * (MidX - tmpx);
+		camPitch += mousevel * (MidY - tmpy);
 
 		LockCamera();
 
